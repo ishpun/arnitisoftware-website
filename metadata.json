@@ -1,0 +1,7 @@
+{
+  "name": "Arniti Software | IT & iGaming Solutions",
+  "description": "Professional IT consulting and iGaming software solutions, specializing in custom development, staff augmentation, and advanced gaming platforms.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
