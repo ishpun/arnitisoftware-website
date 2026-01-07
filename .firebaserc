@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "upbeat-airfoil-421817"
+  },
+  "targets": {
+    "upbeat-airfoil-421817": {
+      "hosting": {
+        "arnitisoftware-website": [
+          "arnitisoftware-website"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
