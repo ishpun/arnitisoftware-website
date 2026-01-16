@@ -6,8 +6,10 @@ import LandingPage from './pages/LandingPage';
 import ServicesPage from './pages/ServicesPage';
 import IGamingPage from './pages/IGamingPage';
 import GetStartedPage from './pages/GetStartedPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsOfServicePage from './pages/TermsOfServicePage';
 
-export type View = 'home' | 'services' | 'igaming' | 'get-started';
+export type View = 'home' | 'services' | 'igaming' | 'get-started' | 'privacy-policy' | 'terms-of-service';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<View>('home');
@@ -25,6 +27,10 @@ const App: React.FC = () => {
         return <IGamingPage setView={setCurrentView} />;
       case 'get-started':
         return <GetStartedPage />;
+      case 'privacy-policy':
+        return <PrivacyPolicyPage />;
+      case 'terms-of-service':
+        return <TermsOfServicePage />;
       default:
         return <LandingPage setView={setCurrentView} />;
     }

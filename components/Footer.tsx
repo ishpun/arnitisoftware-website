@@ -56,8 +56,8 @@ const Footer: React.FC<FooterProps> = ({ setView }) => {
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
           <p>© 2024 Arniti Software. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <button className="hover:text-white transition-colors">Privacy Policy</button>
-            <button className="hover:text-white transition-colors">Terms of Service</button>
+            <button onClick={() => setView('privacy-policy')} className="hover:text-white transition-colors">Privacy Policy</button>
+            <button onClick={() => setView('terms-of-service')} className="hover:text-white transition-colors">Terms of Service</button>
           </div>
         </div>
       </div>
