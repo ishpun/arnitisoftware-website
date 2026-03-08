@@ -53,6 +53,13 @@ const Footer: React.FC<FooterProps> = ({ setView }) => {
           </div>
         </div>
         
+        {/* Registered address and contact details */}
+        <div className="mt-8 text-slate-400 text-xs space-y-1">
+          <p>Registered address: C/O Mr. Pulakesh Gupta, Rabindra Pally Bypass, Bolpur, District: Birbhum, West Bengal, 731204 India</p>
+          <p>Email: <a href="mailto:techteam@arnitisoftware.in" className="hover:text-white">techteam@arnitisoftware.in</a></p>
+          <p>Whatsapp: <a href="https://wa.me/917838944124" className="hover:text-white">+91 7838944124</a></p>
+        </div>
+
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
           <p>© 2024 Arniti Software. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">

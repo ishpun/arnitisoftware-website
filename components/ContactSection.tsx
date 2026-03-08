@@ -84,7 +84,7 @@ const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-blue-200">Inquiries</p>
-                    <p className="text-lg font-bold">contact@arniti.software</p>
+                    <p className="text-lg font-bold">cto@arnitisoftware.in</p>
                   </div>
                 </div>
               </div>
