@@ -40,9 +40,12 @@ const Navbar: React.FC<NavbarProps> = ({ currentView, setView }) => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${forceSolid ? 'bg-white shadow-md py-3' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <div className="flex items-center cursor-pointer group" onClick={() => setView('home')}>
+          <div className="flex flex-col cursor-pointer group" onClick={() => setView('home')}>
             <span className={`text-2xl font-bold tracking-tight transition-colors ${forceSolid ? 'text-blue-700' : 'text-white'}`}>
               Arniti<span className={`transition-colors ${forceSolid ? 'text-slate-900' : 'text-blue-200'}`}>Software</span>
+            </span>
+            <span className={`text-xs font-medium transition-colors ${forceSolid ? 'text-slate-600' : 'text-blue-100'}`}>
+              A MSME certified company.
             </span>
           </div>
           
